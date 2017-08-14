@@ -17,6 +17,9 @@
     "grunt-sass": "^1.1.0",
     "grunt-karma": "^0.12.1"
   },
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "devDependencies": {
     "jasmine-core": "^2.4.1",
     "karma-jasmine": "^0.3.7",
